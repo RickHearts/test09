@@ -18,7 +18,7 @@ pipeline {
         stage('Mozilla') {
           agent {
             node {
-              label 'ubuntu_slave1'
+              label 'ubunto_slave1'
             }
 
           }
