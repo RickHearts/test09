@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Chrome') {
       steps {
-        echo 'Test Chrome'
+        echo 'Chrome Test'
       }
     }
 
