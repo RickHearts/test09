@@ -16,6 +16,12 @@ pipeline {
         }
 
         stage('Mozilla') {
+          agent {
+            node {
+              label 'ubuntu_slave1'
+            }
+
+          }
           steps {
             echo 'Mozilla Tests'
           }
